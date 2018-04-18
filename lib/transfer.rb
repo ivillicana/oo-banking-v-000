@@ -11,4 +11,12 @@ class Transfer
   def valid?
     sender.valid? && receiver.valid? ? true : false
   end
+
+  def execute_transaction
+    
+  end
+
+  def reverse_transfer
+    
+  end
 end
